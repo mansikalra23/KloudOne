@@ -17,4 +17,8 @@ func main() {
 	fmt.Println(re.FindString("hacked"))
 	fmt.Println(ra.FindString("rock and roll"))
 	fmt.Println(r.FindString("rock and roll"))
+	fmt.Println(r.FindStringIndex("rock and roll"))
+	// gives starting and ending index of the matched string
+	fmt.Println(ra.FindStringSubmatch("rock and roll"))
+	// gives the matched substring
 }
