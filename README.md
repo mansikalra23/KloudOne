@@ -1,1 +1,1 @@
-This is the repository for Golang Basics.
+This branch consists of various data structures, and searching and sorting algorithms in Golang.
